@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ee299bd-f578-4af0-84ba-89ebb8a26d6d" name="Changes" comment="" />
+    <list default="true" id="6ee299bd-f578-4af0-84ba-89ebb8a26d6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,12 +60,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LmsPracticeApplication.executor": "Run",
+    "JUnit.All in LmsPractice.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CRUD_Practice/LmsPractice"
+    "last_opened_file_path": "D:/CRUD_Practice/LmsPractice",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="LmsPracticeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shekhar.LmsPractice.LmsPracticeApplication" />
+      <module name="LmsPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shekhar.LmsPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LmsPracticeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

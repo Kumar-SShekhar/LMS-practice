@@ -1,5 +1,6 @@
 package com.shekhar.LmsPractice.service;
 
+import com.shekhar.LmsPractice.exception.UserNotFoundException;
 import com.shekhar.LmsPractice.model.User;
 import com.shekhar.LmsPractice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,12 @@ public class UserService {
     }
 
     public User findById(Long userId) {
-        return userRepository.findById(userId).orElse(null);
+        User user = userRepository.findById(userId).orElse(null);
+        if(user!=null){
+            return user;
+        }else {
+            throw new UserNotFoundException("User not found with id: " + userId);
+        }
     }
 
     public User save(User user) {

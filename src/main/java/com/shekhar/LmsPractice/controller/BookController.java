@@ -25,12 +25,7 @@ public class BookController {
     @GetMapping("/getBookById/{id}")
     public ResponseEntity<Book> getBookById(@PathVariable Long id) {
         Book book = bookService.findById(id);
-
-        if (book != null) {
-            return new ResponseEntity<>(book, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+        return new ResponseEntity<>(book, HttpStatus.OK);
     }
 
     @PostMapping("/addBook")

@@ -1,5 +1,6 @@
 package com.shekhar.LmsPractice.service;
 
+import com.shekhar.LmsPractice.exception.BookNotFoundException;
 import com.shekhar.LmsPractice.model.Book;
 import com.shekhar.LmsPractice.model.User;
 import com.shekhar.LmsPractice.repository.BookRepository;
@@ -26,7 +27,12 @@ public class BookService {
     }
 
     public Book findById(Long id) {
-        return bookRepository.findById(id).orElse(null);
+        Book book=bookRepository.findById(id).orElse(null);
+        if(book!=null){
+            return book;
+        }else {
+            throw new BookNotFoundException("Book not found with id " + id);
+        }
     }
 
 
