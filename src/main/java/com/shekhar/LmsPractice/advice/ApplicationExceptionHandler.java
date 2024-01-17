@@ -1,5 +1,6 @@
 package com.shekhar.LmsPractice.advice;
 import com.shekhar.LmsPractice.exception.BookNotFoundException;
+import com.shekhar.LmsPractice.exception.NotFoundException;
 import com.shekhar.LmsPractice.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -27,4 +28,21 @@ public class ApplicationExceptionHandler {
         errorMap.put("error message" , ex.getMessage());
         return errorMap;
     }
+
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    @ExceptionHandler(NotFoundException.class)
+    public Map<String , String> handleInvalidRetrieval(NotFoundException ex){
+        Map<String , String> errorMap = new HashMap<>();
+        errorMap.put("error message" , ex.getMessage());
+        return errorMap;
+    }
+
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(Exception.class)
+    public Map<String , String> handleGenericException(Exception ex){
+        Map<String , String> errorMap=new HashMap<>();
+        errorMap.put("error message", ex.getMessage());
+        return errorMap;
+    }
+
 }

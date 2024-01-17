@@ -1,5 +1,6 @@
 package com.shekhar.LmsPractice.service;
 
+import com.shekhar.LmsPractice.exception.NotFoundException;
 import com.shekhar.LmsPractice.exception.UserNotFoundException;
 import com.shekhar.LmsPractice.model.User;
 import com.shekhar.LmsPractice.repository.UserRepository;
@@ -26,7 +27,7 @@ public class UserService {
         if(user!=null){
             return user;
         }else {
-            throw new UserNotFoundException("User not found with id: " + userId);
+            throw new NotFoundException("User not found with id:  " + userId);
         }
     }
 

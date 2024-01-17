@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee299bd-f578-4af0-84ba-89ebb8a26d6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/exception/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +54,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LmsPracticeApplication.executor": "Run",
-    "JUnit.All in LmsPractice.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CRUD_Practice/LmsPractice",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LmsPracticeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in LmsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CRUD_Practice/LmsPractice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LmsPracticeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shekhar.LmsPractice.LmsPracticeApplication" />
