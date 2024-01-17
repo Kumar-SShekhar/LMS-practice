@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee299bd-f578-4af0-84ba-89ebb8a26d6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/exception/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/LmsPractice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/advice/ApplicationExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shekhar/LmsPractice/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

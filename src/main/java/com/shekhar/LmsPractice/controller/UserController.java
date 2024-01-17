@@ -1,6 +1,5 @@
 package com.shekhar.LmsPractice.controller;
 
-import com.shekhar.LmsPractice.exception.UserNotFoundException;
 import com.shekhar.LmsPractice.model.User;
 import com.shekhar.LmsPractice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
