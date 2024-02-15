@@ -28,6 +28,12 @@ public class BookController {
         return new ResponseEntity<>(book, HttpStatus.OK);
     }
 
+    @GetMapping("/getByTitle/{title}")
+    public ResponseEntity<List<Book>> getByTitle(@PathVariable String title){
+        List<Book> book=bookService.findByTitle(title);
+        return new ResponseEntity<>(book , HttpStatus.OK);
+    }
+
     @PostMapping("/addBook")
     public Book addBook(@RequestBody Book book) {
         return bookService.save(book);

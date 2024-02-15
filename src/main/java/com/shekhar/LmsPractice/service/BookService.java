@@ -35,6 +35,10 @@ public class BookService {
         }
     }
 
+    public List<Book> findByTitle(String title){
+        List<Book> book = bookRepository.findByTitle(title);
+        return book;
+    }
 
     public Book save(Book book) {
         return bookRepository.save(book);

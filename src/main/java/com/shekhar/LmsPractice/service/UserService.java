@@ -26,7 +26,7 @@ public class UserService {
         if(user!=null){
             return user;
         }else {
-            throw new NotFoundException("User not found with id:  " + userId);
+            throw new NotFoundException("User not found with id:  " + userId );
         }
     }
 

@@ -11,4 +11,6 @@ public interface BookRepository extends JpaRepository<Book , Long> {
     List<Book> findByBorrowedIsFalse();
 
     public List<Book> findByTitleStartingWith(char ch);
+
+    List<Book> findByTitle(String title);
 }

@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LmsPractice" />
+        <module name="LMSPractice" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LMSPractice" options="-parameters" />
       <module name="LmsPractice" options="-parameters" />
     </option>
   </component>
